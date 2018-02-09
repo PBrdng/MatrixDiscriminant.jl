@@ -3,7 +3,7 @@
 # MatrixDiscriminant.jl
 Computes the discriminant of a matrix by using the determinantal representation from
 
-B. N. Parlett. The (matrix) discriminant as a determinant. Linear Algebra and its Applications 355 (2002) 85-101.
+    [B. N. Parlett. The (matrix) discriminant as a determinant. Linear Algebra and its Applications 355 (2002) 85-101.]
 
 Provides the function `disc()`.
 
@@ -15,7 +15,6 @@ disc(A)
 ```
 
 For real symmetric matrices there is an option to return a vector, for which the sum of squares of the entries are equal to the discrimant. Example:
-Example:
 
 ```julia
 using MatrixDiscriminant
