@@ -1,5 +1,5 @@
 module MatrixDiscriminant
-   import Iterators: subsets
+   import Iterators
    import MultivariatePolynomials
    const MP = MultivariatePolynomials
 
